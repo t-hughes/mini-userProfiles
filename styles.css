@@ -1,3 +1,32 @@
 .favorite {
     background-color: lightblue
 }
+
+div {
+  padding 15px;
+  border: 1px solid #F7F7F7;
+  box-shadow: 0 0 5px rgba(0,0,0,3);
+  max-width: 300px;
+  margin: 25px 0;
+}
+
+div:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+img {
+  float: left;
+  margin-right: 10px;
+}
+
+span {
+  font-size: 20px;
+  text-transform: capitalize;
+}
+
+span button {
+  float: left;
+  font-weight: bold;
+}

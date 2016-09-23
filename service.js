@@ -25,6 +25,8 @@ angular.module('userProfiles').service('mainService', function(){
         return data;
   };
 
+  //when we call this we are calling our main service object
+
   this.toggleFavorite = function(userIndex){
       data[userIndex].isFavorite = !data[userIndex].isFavorite;
   };
